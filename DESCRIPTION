@@ -1,0 +1,10 @@
+Package: visomed
+Type: Package
+Title: What the package does (short line)
+Version: 1.0
+Date: 2014-09-26
+Author: Sinan SHI
+Maintainer: Sinan SHI <shi@otmed.fr>
+Description: More about what it does (maybe more than one line)
+License: What license is it under?
+LazyData: true
