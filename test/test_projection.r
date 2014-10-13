@@ -4,7 +4,7 @@ library(rgdal)
 library(raster)
 library(sp)
 library(ggplot2)
-load("clim.R")
+load("test/clim.Rdata")
 
 pj<-"+proj=laea +lat_0=52   +lon_0=10      +x_0=3 210 000    +y_0=4 321 000 "
 #pj<-"+proj=robin"
@@ -33,13 +33,13 @@ theme_opts <- list(theme(
 #==========
 #(a) ggplot without projection
 #==========
-wmap <- readOGR(dsn="ne_110m_land", layer="ne_110m_land")
+wmap <- readOGR(dsn="data/ne_110m_land", layer="ne_110m_land")
 wmap_gg<-fortify(wmap)
-grat <- readOGR("ne_110m_graticules_all", layer="ne_110m_graticules_15") 
+grat <- readOGR("data/ne_110m_graticules_all", layer="ne_110m_graticules_15") 
 grat_df <- fortify(grat)
-bbox <- readOGR("ne_110m_graticules_all", layer="ne_110m_wgs84_bounding_box") 
+bbox <- readOGR("data/ne_110m_graticules_all", layer="ne_110m_wgs84_bounding_box") 
 bbox_df<- fortify(bbox)
-countries <- readOGR("ne_110m_admin_0_countries", layer="ne_110m_admin_0_countries") 
+countries <- readOGR("data/ne_110m_admin_0_countries", layer="ne_110m_admin_0_countries") 
 
 a<-ggplot(data=map2,aes(x=lon,y=lat))+
 geom_tile(aes(fill=val))+
