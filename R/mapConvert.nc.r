@@ -9,7 +9,14 @@
 	count_ind="numeric"))
  
 
- 
+ map2spatial<-function(lon,lat,map,missval){
+	 lonarray<-array(rep(lon,length(lat)), dim=dim(map))
+	 latarray<-t(array(rep(lat,length(lon)),dim=dim(t(map))))	 
+	sp<-data.frame("lon"=as.vector(lonarray),"lat"=as.vector(latarray),"val"=as.vector(map))
+	sp$lon[sp$lon>180]<-sp$lon[sp$lon>180]-360
+	sp
+}
+  
  map.info.ncdf<-function(filename){
 	nc<-open.ncdf(filename)
 	ncdim<-list()
@@ -41,8 +48,12 @@
  		 data<-get.var.ncdf(nc, obj@varname, start=obj@start_ind,count=obj@count_ind)
  		 missval<-nc$var[[obj@varname]]$missval
  		 
- 		 spdataframe<-map2spatial(ncdim[[1]],ncdim[[2]], data,missval)
- 		 spdataframe 		 
+ 		 dataframe<-map2spatial(ncdim[[1]],ncdim[[2]], data,missval)
+ 		 mappoints<-list()
+ 		 mappoints[["dataframe"]]<-dataframe
+ 		 mappoints[["missval"]]<-missval
+ 		 
+ 		mappoints	 
 	 })
 	
 	

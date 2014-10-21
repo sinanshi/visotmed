@@ -1,4 +1,2 @@
-
-
 setGeneric("mapConvert",function(obj){
-	 cat("no such a class available\n")})
+	 cat(class(obj)," is not available\n")})
