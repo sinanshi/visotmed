@@ -39,10 +39,6 @@ setMethod("polygonConvert", signature(obj="shapefile"),
 	function(obj,gg,...){
 		cat("add polygons\n====\n")
 		dataframe<-polygonConvert(obj)
-		dataframe<-dataframe[dataframe$long<max(g$data$lon), ]
-		dataframe<-dataframe[dataframe$long>min(g$data$lon), ]
-		dataframe<-dataframe[dataframe$lat>min(g$data$lat), ]
-		dataframe<-dataframe[dataframe$lat<max(g$data$lat), ]
 		g2<-gg+geom_path(data=dataframe,aes(long,lat,group=group),...)
 		return(g2)
 		

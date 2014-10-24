@@ -23,11 +23,18 @@ map2raster<-function(data,proj,...){
 #=====
 #input data{dataframe, missval}
 #====
-mapProjection<-function(data,from,to,method="ngb",...){
-	raster<-map2raster(data$dataframe,proj=from,...)
-	raster_proj<-projectRaster(raster,crs=CRS(to),method=method)
-	points<-as.data.frame(rasterToPoints(raster_proj))
-	names(points)<-c("lon","lat","val")
-	points$val[abs(points$val)>data$missval]<-NA
-	return(points)
+mapProjection<-function(data,from,to="NA",method="ngb",...){
+	if(to!="NA"){
+		raster<-map2raster(data$dataframe,proj=from,...)
+		raster_proj<-projectRaster(raster,crs=CRS(to),method=method)
+		points<-as.data.frame(rasterToPoints(raster_proj))
+		names(points)<-c("lon","lat","val")
+		points$val[abs(points$val)>data$missval]<-NA
+		return(points)
+	}
+	else{
+		points<-data$dataframe
+		points$val[abs(points$val)>data$missval]<-NA
+		return(points)
+	}
 }

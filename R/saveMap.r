@@ -1,9 +1,10 @@
 require("png")
 require("grid")
 
-saveMap<-function(filename,plot,width=8, height=5,dpi=300,LOGO=TRUE,...){
+saveMap<-function(filename,plot,width=6, height=6,dpi=300,w_h=1,LOGO=TRUE,...){
         if (!inherits(plot, "ggplot")) 
 		stop("plot should be a ggplot2 plot")
+	#width<-height*w_h
 	logo<-"data/logo_otmed.png"
 	eps <- ps <- function(..., width, height) grDevices::postscript(..., 
 				width = width, height = height, onefile = FALSE, horizontal = FALSE, 

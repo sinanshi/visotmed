@@ -62,7 +62,7 @@ plot(projectRaster(r,crs=CRS("+proj=robin"),method="ngb"))
 
  g<-ggplot(sp,aes(lon,lat))+geom_raster(aes(fill=val))+
  #geom_path(data=countries_robin_df,aes(long,lat,group=group),color="black",size=0.2)+
-     scale_fill_gradientn(colours=myPalette(100), na.value="lightblue",
+     scale_fill_gradientn(colours=myPalette(100), na.value="white",
  		      guide= guide_colorbar(title=expression(degree~C), title.position="top",
  			      #    barwidth = 25, barheight = 1,nbin=100, 
  			     draw.ulim = FALSE, draw.llim = FALSE ))+
