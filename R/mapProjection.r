@@ -29,12 +29,12 @@ mapProjection<-function(data,from,to="NA",method="ngb",...){
 		raster_proj<-projectRaster(raster,crs=CRS(to),method=method)
 		points<-as.data.frame(rasterToPoints(raster_proj))
 		names(points)<-c("lon","lat","val")
-		points$val[abs(points$val)>data$missval]<-NA
+		points$val[abs(points$val)>abs(data$missval)]<-NA
 		return(points)
 	}
 	else{
 		points<-data$dataframe
-		points$val[abs(points$val)>data$missval]<-NA
+		points$val[abs(points$val)>abs(data$missval)]<-NA
 		return(points)
 	}
 }
