@@ -43,22 +43,6 @@ setMethod("polygonConvert", signature(obj="shapefile"),
 		return(g2)
 		
 	})
-	
-	
-	
- setGeneric("addPoly",function(obj,gg,...){
-	 cat(class(obj)," is not available\n")})
- 
- 
- setMethod("addPoly", signature(obj="shapefile"),
-	function(obj,gg,...){
-		cat("add polygons\n====\n")
-		dataframe<-polygonConvert(obj)
-		g2<-gg+geom_polygon(data=dataframe,aes(long,lat,group=group),...)
-		return(g2)
-		
-	})
-
 
 getShpAttrib<-function(obj,slot=c("labpt","area"),att){
 	if(!inherits(obj,"shapefile"))

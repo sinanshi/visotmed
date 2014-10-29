@@ -112,7 +112,7 @@ w_h<-function(lim){
 
 d<-addLines(country,gg=g,size=0.35)
 
-saveMap(paste("std_",qq,".jpeg",sep=""),d, LOGO=TRUE,width=6,height=6)
+saveMap(paste("std_",colNames[qq],".jpeg",sep=""),d, LOGO=TRUE,width=6,height=6)
 
 
 

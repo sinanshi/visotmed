@@ -1,11 +1,13 @@
-\contentsline {section}{\numberline {1}What is the Map Template}{1}
-\contentsline {subsection}{\numberline {1.1}Input Data Types}{1}
-\contentsline {subsection}{\numberline {1.2}Standard Data Type}{1}
-\contentsline {section}{\numberline {2}How to Use the Template}{1}
-\contentsline {section}{\numberline {3}Examples}{1}
-\contentsline {subsection}{\numberline {3.1}Standard Map}{1}
-\contentsline {subsection}{\numberline {3.2}Differnt Colour Scales}{1}
-\contentsline {subsection}{\numberline {3.3}Colour Bars}{1}
-\contentsline {subsection}{\numberline {3.4}Polygons Map}{1}
-\contentsline {section}{\numberline {4}Further Development}{1}
-\contentsline {subsection}{\numberline {4.1}Projection on irregular grids}{1}
+\contentsline {section}{\numberline {1}What is the Map Template?}{2}
+\contentsline {subsection}{\numberline {1.1}Standard Data Type}{2}
+\contentsline {subsection}{\numberline {1.2}Available Input Data Type}{2}
+\contentsline {section}{\numberline {2}How to Use the Template}{4}
+\contentsline {section}{\numberline {3}Examples}{4}
+\contentsline {subsection}{\numberline {3.1}Standard Map}{5}
+\contentsline {subsection}{\numberline {3.2}Built in Polygons}{5}
+\contentsline {subsection}{\numberline {3.3}Projections}{5}
+\contentsline {subsection}{\numberline {3.4}Selecting Colour Scales}{5}
+\contentsline {subsection}{\numberline {3.5}Colour Bars Position}{5}
+\contentsline {subsection}{\numberline {3.6}Polygons Map}{5}
+\contentsline {section}{\numberline {4}Further Development}{5}
+\contentsline {subsection}{\numberline {4.1}Projection on irregular grids}{5}
