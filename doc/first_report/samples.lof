@@ -1,0 +1,6 @@
+\contentsline {figure}{\numberline {1}{\ignorespaces Original raster data from NCDF}}{2}
+\contentsline {figure}{\numberline {2}{\ignorespaces cut\_window: put original data by a user specified boundary}}{2}
+\contentsline {figure}{\numberline {3}{\ignorespaces addLines: the template has prepared 5 different types of polygon data, including country lines, coastlines, rivers, lakes and islands, all in 3 resolution 10 min, 50 min, 110 min. User defined ESRI Shape files can also be implemented in this function.}}{3}
+\contentsline {figure}{\numberline {4}{\ignorespaces Moving legend position: position can be top, bottom, left and right}}{4}
+\contentsline {figure}{\numberline {5}{\ignorespaces mapProjection: this function allows user to convert rasters, shape files and points into a specified projection by proj4 strings.}}{5}
+\contentsline {figure}{\numberline {6}{\ignorespaces mapProjection: this function allows user to convert rasters, shape files and points into a specified projection by proj4 strings.}}{6}

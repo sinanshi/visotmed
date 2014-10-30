@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/TeX Live for SUSE Linux) (format=pdflatex 2013.10.23)  30 OCT 2014 12:49
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/TeX Live for SUSE Linux) (format=pdflatex 2013.10.23)  30 OCT 2014 15:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**map_template.tex
-(./map_template.tex
+**samples.tex
+(./samples.tex
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, dumylang, nohyphenation, ge
 rman-x-2011-07-01, ngerman-x-2011-07-01, afrikaans, ancientgreek, ibycus, arabi
@@ -326,21 +326,21 @@ File: lstlang2.sty 2004/09/05 1.3 listings language file
 )
 (/usr/share/texmf/tex/latex/listings/lstlang3.sty
 File: lstlang3.sty 2004/09/05 1.3 listings language file
-) (./map_template.aux)
-\openout1 = `map_template.aux'.
+) (./samples.aux)
+\openout1 = `samples.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
 \c@lstlisting=\count96
 
 (/usr/share/texmf/tex/context/base/supp-pdf.mkii
@@ -405,105 +405,106 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 47.
+(Font)              <12> on input line 48.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 47.
+(Font)              <8> on input line 48.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 47.
- (./map_template.toc
+(Font)              <6> on input line 48.
+ (./samples.lof
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 2.
+(Font)              <7> on input line 1.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 2.
+(Font)              <5> on input line 1.
 )
-\tf@toc=\write3
-\openout3 = `map_template.toc'.
+\tf@lof=\write3
+\openout3 = `samples.lof'.
 
-(./map_template.lof)
-\tf@lof=\write4
-\openout4 = `map_template.lof'.
 
- [1
+<origin.jpeg, id=1, 433.62pt x 267.399pt>
+File: origin.jpeg Graphic file (type jpg)
+ <use origin.jpeg>
+Package pdftex.def Info: origin.jpeg used on input line 58.
+(pdftex.def)             Requested size: 413.99895pt x 255.31287pt.
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <8> not available
-(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 61.
+Overfull \hbox (68.99895pt too wide) in paragraph at lines 58--59
+ [][] 
+ []
 
-<std.png, id=11, 433.62pt x 433.62pt>
-File: std.png Graphic file (type png)
- <use std.png>
-Package pdftex.def Info: std.png used on input line 103.
-(pdftex.def)             Requested size: 345.0pt x 345.01738pt.
+<origin_window.jpeg, id=2, 505.89pt x 289.08pt>
+File: origin_window.jpeg Graphic file (type jpg)
+ <use origin_window.jpeg>
+Package pdftex.def Info: origin_window.jpeg used on input line 64.
+(pdftex.def)             Requested size: 413.99895pt x 236.57515pt.
 
-<std_discrete.jpeg, id=12, 505.89pt x 433.62pt>
-File: std_discrete.jpeg Graphic file (type jpg)
- <use std_discrete.jpeg>
-Package pdftex.def Info: std_discrete.jpeg used on input line 110.
-(pdftex.def)             Requested size: 345.0pt x 295.71785pt.
+Overfull \hbox (68.99895pt too wide) in paragraph at lines 64--65
+ [][] 
+ []
 
-<point_pj.jpeg, id=13, 505.89pt x 289.08pt>
-File: point_pj.jpeg Graphic file (type jpg)
- <use point_pj.jpeg>
-Package pdftex.def Info: point_pj.jpeg used on input line 119.
-(pdftex.def)             Requested size: 345.0pt x 197.14522pt.
+<origin_add_text.jpeg, id=3, 505.89pt x 289.08pt>
+File: origin_add_text.jpeg Graphic file (type jpg)
+ <use origin_add_text.jpeg>
+Package pdftex.def Info: origin_add_text.jpeg used on input line 70.
+(pdftex.def)             Requested size: 413.99895pt x 236.57515pt.
 
-<col1.jpeg, id=14, 433.62pt x 433.62pt>
-File: col1.jpeg Graphic file (type jpg)
- <use col1.jpeg>
-Package pdftex.def Info: col1.jpeg used on input line 135.
-(pdftex.def)             Requested size: 155.24954pt x 155.24954pt.
+Overfull \hbox (68.99895pt too wide) in paragraph at lines 70--73
+ [][] 
+ []
 
-<col2.jpeg, id=15, 433.62pt x 433.62pt>
-File: col2.jpeg Graphic file (type jpg)
- <use col2.jpeg>
-Package pdftex.def Info: col2.jpeg used on input line 136.
-(pdftex.def)             Requested size: 155.24954pt x 155.24954pt.
+<origin_move_legend.jpeg, id=4, 505.89pt x 361.35pt>
+File: origin_move_legend.jpeg Graphic file (type jpg)
 
-<col4.jpeg, id=16, 433.62pt x 433.62pt>
-File: col4.jpeg Graphic file (type jpg)
- <use col4.jpeg>
-Package pdftex.def Info: col4.jpeg used on input line 137.
-(pdftex.def)             Requested size: 155.24954pt x 155.24954pt.
+<use origin_move_legend.jpeg>
+Package pdftex.def Info: origin_move_legend.jpeg used on input line 77.
+(pdftex.def)             Requested size: 413.99895pt x 295.71895pt.
 
-<col_12.jpeg, id=17, 433.62pt x 433.62pt>
-File: col_12.jpeg Graphic file (type jpg)
- <use col_12.jpeg>
-Package pdftex.def Info: col_12.jpeg used on input line 138.
-(pdftex.def)             Requested size: 155.24954pt x 155.24954pt.
+Overfull \hbox (68.99895pt too wide) in paragraph at lines 77--78
+ [][] 
+ []
 
-<col_13.jpeg, id=18, 433.62pt x 433.62pt>
-File: col_13.jpeg Graphic file (type jpg)
- <use col_13.jpeg>
-Package pdftex.def Info: col_13.jpeg used on input line 139.
-(pdftex.def)             Requested size: 155.24954pt x 155.24954pt.
+<projections.jpeg, id=5, 433.62pt x 433.62pt>
+File: projections.jpeg Graphic file (type jpg)
+ <use projections.jpeg>
+Package pdftex.def Info: projections.jpeg used on input line 83.
+(pdftex.def)             Requested size: 413.99895pt x 414.02086pt.
 
-<col_15.jpeg, id=19, 433.62pt x 433.62pt>
-File: col_15.jpeg Graphic file (type jpg)
- <use col_15.jpeg>
-Package pdftex.def Info: col_15.jpeg used on input line 140.
-(pdftex.def)             Requested size: 155.24954pt x 155.24954pt.
- [2] [3 <./std.png (PNG copy)>] [4 <./std_discrete.jpeg> <./point_pj.jpeg>] [5]
- [6 <./col1.jpeg> <./col2.jpeg> <./col4.jpeg> <./col_12.jpeg> <./col_13.jpeg> <
-./col_15.jpeg>]
-(./map_template.aux) ) 
+Overfull \hbox (68.99895pt too wide) in paragraph at lines 83--85
+ [][] 
+ []
+
+<projection_with_graticules.jpeg, id=6, 433.62pt x 433.62pt>
+File: projection_with_graticules.jpeg Graphic file (type jpg)
+
+<use projection_with_graticules.jpeg>
+Package pdftex.def Info: projection_with_graticules.jpeg used on input line 89.
+
+(pdftex.def)             Requested size: 413.99895pt x 414.02086pt.
+
+Overfull \hbox (68.99895pt too wide) in paragraph at lines 89--91
+ [][] 
+ []
+
+[1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2 <./origin.jpeg> <./orig
+in_window.jpeg>] [3 <./origin_add_text.jpeg>] [4 <./origin_move_legend.jpeg>] [
+5 <./projections.jpeg>] [6 <./projection_with_graticules.jpeg>]
+(./samples.aux) ) 
 Here is how much of TeX's memory you used:
- 4416 strings out of 493607
- 57226 string characters out of 3149944
- 158347 words of memory out of 3500000
- 7672 multiletter control sequences out of 15000+200000
- 8577 words of font info for 31 fonts, out of 3000000 for 9000
+ 3430 strings out of 493607
+ 47786 string characters out of 3149944
+ 142347 words of memory out of 3500000
+ 6696 multiletter control sequences out of 15000+200000
+ 7280 words of font info for 26 fonts, out of 3000000 for 9000
  831 hyphenation exceptions out of 8191
- 37i,6n,41p,574b,1772s stack positions out of 5000i,500n,10000p,200000b,50000s
-</usr/share/texmf/fonts/type1/public/amsfonts/cm/cmbx10.p
-fb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texm
-f/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf/fonts/type1/public
-/amsfonts/cm/cmr12.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmr17.p
-fb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texm
-f/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
-Output written on map_template.pdf (6 pages, 3806840 bytes).
+ 37i,6n,41p,363b,235s stack positions out of 5000i,500n,10000p,200000b,50000s
+</usr/share/texmf/fonts/type1/public/amsfonts/cm/cmbx12.pfb></
+usr/share/texmf/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf/font
+s/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf/fonts/type1/public/amsfo
+nts/cm/cmr17.pfb>
+Output written on samples.pdf (6 pages, 1461107 bytes).
 PDF statistics:
- 60 PDF objects out of 1000 (max. 8388607)
- 35 compressed objects within 1 object stream
+ 45 PDF objects out of 1000 (max. 8388607)
+ 26 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 46 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 31 words of extra memory for PDF output out of 10000 (max. 10000000)
 

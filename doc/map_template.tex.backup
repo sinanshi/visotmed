@@ -111,21 +111,36 @@ OT-Med &LPJmL&\\
   \label{fig:point_prj}
 \end{figure}
 
-\begin{tabular}{c c}
- 
- \includegraphics[width=0.5\textwidth, height=0.5\textwidth]{col1}&
- \includegraphics[width=0.5\textwidth, height=0.5\textwidth]{col2}\\
- \includegraphics[width=0.5\textwidth, height=0.5\textwidth]{col3}&
-  \includegraphics[width=0.5\textwidth, height=0.5\textwidth]{col4}\\
-   \includegraphics[width=0.5\textwidth, height=0.5\textwidth]{col5}&
-    \includegraphics[width=0.5\textwidth, height=0.5\textwidth]{col6}\\
-	
-\end{tabular}
+
+
+
+\begin{figure}
+  \centering
+    \includegraphics[width=1\textwidth]{std_discrete}
+    \caption{Maps from Attributes of Polygons or Spatial Points}
+  \label{fig:discrete}
+\end{figure}
+
+
+
+
 
 \subsection{Standard Map}
 \subsection{Built in Polygons}
 \subsection{Projections}
 \subsection{Selecting Colour Scales}
+\begin{figure}
+  \centering
+   \includegraphics[width=0.4\textwidth, height=0.4\textwidth]{col1}
+  \includegraphics[width=0.4\textwidth, height=0.4\textwidth]{col2}
+  \includegraphics[width=0.4\textwidth, height=0.4\textwidth]{col4}
+  \includegraphics[width=0.4\textwidth, height=0.4\textwidth]{col_12}
+  \includegraphics[width=0.4\textwidth, height=0.4\textwidth]{col_13}
+  \includegraphics[width=0.4\textwidth, height=0.4\textwidth]{col_15}
+    \caption{Maps from Attributes of Polygons or Spatial Points}
+  \label{fig:change color}
+\end{figure}
+
 \subsection{Colour Bars Position}
 \subsection{Polygons Map}
 \section{Further Development}

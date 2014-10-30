@@ -1,4 +1,4 @@
-prj_latlon<<-"+proj=longlat +datum=WGS84 +no_defs +ellps=WGS84 +towgs84=0,0,0"
+
 graticules<-function(disx=10,disy=10,proj="NA"){
 	x<-seq(-180,180,disx)
 	y<-seq(-90,90,disy)
@@ -15,7 +15,7 @@ graticules<-function(disx=10,disy=10,proj="NA"){
 		NS[[i]]<-Line(l)
 	}	
 	NS<-Lines(NS,ID=c("NS"))	
-	out<-SpatialLines(list(EW,NS),proj4string=CRS(prj_latlon))
+	out<-SpatialLines(list(EW,NS),proj4string=CRS(proj_latlon))
 	if(proj!="NA"){
 		out<-spTransform(out,CRS(proj))
 	}
@@ -102,9 +102,9 @@ gratText<-function(graticule,lim){
 	spoints_ew<-SpatialPoints(txt_pos_ew, CRS(projection(graticule)))
 	spoints_ns<-SpatialPoints(txt_pos_ns, CRS(projection(graticule)))
 	
- 	if(projection(graticule)!=prj_latlon){
-		latlon_ew<-as.data.frame(spTransform(spoints_ew,CRS(prj_latlon)))
-		latlon_ns<-as.data.frame(spTransform(spoints_ns,CRS(prj_latlon)))
+ 	if(projection(graticule)!=proj_latlon){
+		latlon_ew<-as.data.frame(spTransform(spoints_ew,CRS(proj_latlon)))
+		latlon_ns<-as.data.frame(spTransform(spoints_ns,CRS(proj_latlon)))
 	}else{
 		latlon_ew<-as.data.frame(spoints_ew)
 		latlon_ns<-as.data.frame(spoints_ns)
