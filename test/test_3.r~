@@ -56,7 +56,7 @@ theme_blank
 
 
 
-saveMap("point_pj.jpeg",plot=dd,width=7,height=4,dpi=600)
+saveMap("point_pj.jpeg",plot=dd,width=7,height=4,dpi=300)
 
 
 

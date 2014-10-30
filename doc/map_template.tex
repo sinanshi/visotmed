@@ -46,10 +46,50 @@
 
 \maketitle
 \tableofcontents
-\section{What is the Map Template}
-\subsection{Input Data Types}
+\newpage
+
+
+\section{What is the Map Template?}
+OT-Med map template is a collection of functions and examples in open source programming language R for visualising the scientific geographic data in order to produce maps that meet the scientific publication standard. It provides multiple functions for arranging the layout of the map....
+
+Map visualistaion part of this template implemented functions that provided by one of the most widely used and maturest R data visualisation package \textit{ggplot}. The users can very easily find various free tutorials and manuals online. However to use the most basic functions of the map template, the knowledge of \textit{ggplot} is not required. The map template has also used the many other R packages for manipulating geo-spatial data, such as \textit{rgal, sp} and etc and for reading different types of data, such as \textit{ncdf}
 
 \subsection{Standard Data Type}
+In order to use this template, all the geo-spatial will be transferred to a pre-defined data type, which is a list that contains two elements, 1) data and 2) missval, where data is in dataframe type and missval which indicate the missing value (can be NA) is a numeric data type. 
+\begin{lstlisting}
+>$data #data.frame
+lon	  lat		val
+32.37 41.62 24.168726
+32.62 41.62 21.798944
+32.87 41.62 21.869623
+33.12 41.62 22.716730
+33.37 41.62 21.965418
+33.62 41.62 23.031305
+
+>$missval #numeric
+[1] -1e+32
+\end{lstlisting}
+
+\subsection{Available Input Data Type}  
+Therefore, one can convert any data type into the standard data type, and use the map template functions. The template has built in many data type converters, including most common GIS data formats, and other special data type for OT-Med modelling groups.
+
+
+\begin{tabular}{l l l}
+ 
+Type& Data Format    & Notes\\
+\hline
+GIS&Raster & \\
+&Polygons&\\
+Modelling data & ncdf &\\
+User defined& csv & \\
+
+OT-Med &LPJmL&\\
+	
+\end{tabular}
+
+
+
+
 
 
 
@@ -59,18 +99,39 @@
 \section{Examples}
 \begin{figure}
   \centering
-    \includegraphics[width=1\textwidth]{first}
-  \caption{Standard Map}
-  \label{fig:gull}
+    \includegraphics[width=1\textwidth]{std}
+  \caption{Map from Rasters}
+  \label{fig:std}
 \end{figure}
+
+\begin{figure}
+  \centering
+    \includegraphics[width=1\textwidth]{point_pj}
+  \caption{Maps from Attributes of Polygons or Spatial Points}
+  \label{fig:point_prj}
+\end{figure}
+
+
+\includegraphics[width=0.4\textwidth, height=0.4\textwidth]{col1}
+\includegraphics[width=0.4\textwidth, height=0.4\textwidth]{col2}
+\includegraphics[width=0.4\textwidth, height=0.4\textwidth]{col4}
+% \includegraphics[width=0.4\textwidth, height=0.4\textwidth]{col5}
+% \includegraphics[width=0.4\textwidth, height=0.4\textwidth]{col6}
+\includegraphics[width=0.4\textwidth, height=0.4\textwidth]{col_12}
+\includegraphics[width=0.4\textwidth, height=0.4\textwidth]{col_13}
+\includegraphics[width=0.4\textwidth, height=0.4\textwidth]{col_15}
+
+
+
+
 \subsection{Standard Map}
-\subsection{Differnt Colour Scales}
-\subsection{Colour Bars}
+\subsection{Built in Polygons}
+\subsection{Projections}
+\subsection{Selecting Colour Scales}
+\subsection{Colour Bars Position}
 \subsection{Polygons Map}
 \section{Further Development}
 \subsection{Projection on irregular grids}
-
-
 
 
 
